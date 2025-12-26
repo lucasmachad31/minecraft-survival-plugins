@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    group = 'com.survival'
+    version = '1.0.0'
+    
+    repositories {
+        mavenCentral()
+        maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+    
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+}

@@ -1,0 +1,6 @@
+rootProject.name = 'minecraft-survival'
+
+include ':plugin-core'
+include ':plugin-teams'
+include ':plugin-base'
+include ':plugin-combat'
