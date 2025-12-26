@@ -1,0 +1,5 @@
+name: SurvivalCore
+version: 1.0.0
+main: com.survival.core.CorePlugin
+api-version: "1.21"
+description: Core API for Survival PvP server
